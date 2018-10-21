@@ -1,0 +1,47 @@
+# view AndroidManifest.xml #generated:7
+-keep class quick.math.BemVindo { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class quick.math.Principal { <init>(...); }
+
+# onClick res/layout/tela_inicial.xml #generated:18
+-keepclassmembers class * { *** ajuda(...); }
+
+# onClick res/layout/tela_inicial.xml #generated:28
+-keepclassmembers class * { *** creditos(...); }
+
+# onClick res/layout/tela_operacoes.xml #generated:38
+-keepclassmembers class * { *** divisao(...); }
+
+# onClick res/layout/tela_exercicios.xml #generated:57
+-keepclassmembers class * { *** exit(...); }
+
+# onClick res/layout/tela_inicial.xml #generated:8
+# onClick res/layout/tela_operacoes.xml #generated:58
+-keepclassmembers class * { *** jogar(...); }
+
+# onClick res/layout/tela_operacoes.xml #generated:28
+-keepclassmembers class * { *** multiplicacao(...); }
+
+# onClick res/layout/tela_inicial.xml #generated:38
+-keepclassmembers class * { *** sair(...); }
+
+# onClick res/layout/tela_operacoes.xml #generated:8
+-keepclassmembers class * { *** soma(...); }
+
+# onClick res/layout/tela_operacoes.xml #generated:18
+-keepclassmembers class * { *** subtracao(...); }
+
+# onClick res/layout/tela_acertou.xml #generated:30
+# onClick res/layout/tela_errou.xml #generated:30
+# onClick res/layout/tela_niveis.xml #generated:37
+-keepclassmembers class * { *** tenteNovamente(...); }
+
+# onClick res/layout/tela_ajuda.xml #generated:28
+-keepclassmembers class * { *** tocar_video(...); }
+
+# onClick res/layout/tela_ajuda.xml #generated:12
+# onClick res/layout/tela_creditos.xml #generated:8
+# onClick res/layout/tela_operacoes.xml #generated:48
+-keepclassmembers class * { *** voltar(...); }
+
